@@ -1,0 +1,20 @@
+@use "./utilities/colors";
+@use "./utilities/mixins";
+
+.description {
+    &__heading{
+        margin-bottom: 3em;
+    }
+    &__summary{
+        margin-top: 3em;
+    }
+    // &__heading, &__summary {
+    //     text-align: left;
+        
+    //     @include mixins.large-devices {
+    //         padding: 0 5em;
+    //     }
+    // }
+}
+
+

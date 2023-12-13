@@ -1,0 +1,19 @@
+@use '../utilities/mixins';
+
+
+.banner {
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+    @include mixins.large-devices {
+        height: 500px;
+        
+    }
+    @include mixins.max-devices {
+        height: 600px;
+        background-attachment: fixed;
+
+    }
+}

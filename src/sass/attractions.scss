@@ -1,0 +1,8 @@
+@use "./utilities/colors";
+
+.btn {
+    border: 1px solid colors.$secondary-400 !important;
+    & span {
+        color: colors.$secondary-400;
+    }
+}

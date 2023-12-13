@@ -1,0 +1,18 @@
+@use '../utilities/mixins';
+
+.info-card {
+    &:first-child {
+        margin: 0; 
+    }
+    @include mixins.medium-devices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3em 0;
+        
+    }
+   
+    &--reverse {
+        flex-direction: row-reverse;
+    }
+}
