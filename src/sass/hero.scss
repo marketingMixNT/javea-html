@@ -36,31 +36,38 @@
 		transform: translateX(-50%);
 		width: 70%;
 		@include mixins.small-devices {
-			width: 70%;
 		}
 		@include mixins.medium-devices {
 			bottom: 60px;
 		}
 		@include mixins.large-devices {
-			width: auto;
 			bottom: 100px;
+		}
+		@include mixins.xxl-devices {
+			width: auto;
 		}
 	}
 	&__box {
 		display: flex;
 		justify-content: center;
-		// flex-direction: column;
-		// gap:1em;
 		align-items: center;
 		flex-wrap: wrap;
 		background-color: white;
 		padding: 5px;
-        @include mixins.medium-devices {
-padding:.6em 0;
-gap:1em}
-@include mixins.large-devices {
-    padding:.6em 1em;
-}
+		@include mixins.medium-devices {
+			padding: 0.6em 0;
+			gap: 1em;
+		}
+		@include mixins.large-devices {
+			padding: 0.6em 1em;
+		}
+		&--container{
+			flex-direction: column;
+			gap:5px;
+			@include mixins.medium-devices {
+				flex-direction: row;
+			}
+		}
 	}
 }
 
