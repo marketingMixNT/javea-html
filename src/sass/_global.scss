@@ -1,4 +1,5 @@
 @use "./utilities/colors";
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 
 body {
     .gdlr-core-divider-line.gdlr-core-skin-divider {
@@ -101,3 +102,15 @@ body.hotale-full .hotale-fixed-footer {
     z-index: 10000000000;
     background-color: white;
 }
+
+.handing{
+    font-family: 'Allison', cursive !important; 
+    color:white !important;
+    font-size:120px !important;
+    text-align:center 
+}
+
+// .handing--2{
+//     color:colors.$main-400 !important;
+
+// }

@@ -1,3 +1,4 @@
+
 const nav = document.querySelector(".desktop-nav-container");
 // const bookBtn = document.querySelector('#tourmaster-room-navigation-checkout-button')
 // const menuItems = document.querySelectorAll('.menu-ite a')
@@ -121,28 +122,45 @@ window.onload = function() {
 
 
 
-const cookieBox = document.querySelector("#cookieBox");
-const acceptBtn = document.querySelector("#acceptBtn");
+// const cookieBox = document.querySelector("#cookieBox");
+// const acceptBtn = document.querySelector("#acceptBtn");
 
-const addCookie = () => {
-    document.cookie = "Privacy Policy; max-age=" + 60 * 60 * 24 * 30;
+// const addCookie = () => {
+//     document.cookie = "Privacy Policy; max-age=" + 60 * 60 * 24 * 30;
 
-    if (document.cookie.indexOf("Privacy Policy") !== -1) {
-        cookieBox.classList.add("hidden");
-    }
-};
+//     if (document.cookie.indexOf("Privacy Policy") !== -1) {
+//         cookieBox.classList.add("hidden");
+//     }
+// };
 
-const checkCookie = () => {
-    if (document.cookie.indexOf("Privacy Policy") !== -1) {
-        cookieBox.classList.add("hidden");
-    } else {
-        cookieBox.classList.remove("hidden");
-    }
-};
+// const checkCookie = () => {
+//     if (document.cookie.indexOf("Privacy Policy") !== -1) {
+//         cookieBox.classList.add("hidden");
+//     } else {
+//         cookieBox.classList.remove("hidden");
+//     }
+// };
 
-checkCookie();
+// checkCookie();
 
-acceptBtn.addEventListener("click", () => {
-    addCookie();
-    checkCookie();
+// acceptBtn.addEventListener("click", () => {
+//     addCookie();
+//     checkCookie();
+// });
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const container = document.getElementById('rooms-container'); // ID Twojego konkretnego kontenera
+    const divs = Array.from(container.children); // Pobranie dzieci kontenera jako tablicy
+    const shuffledDivs = divs.sort(() => 0.5 - Math.random()); // Losowe mieszanie DIV-ów
+
+    // Usunięcie istniejących DIV-ów z kontenera
+    container.innerHTML = '';
+
+    // Dodanie wymieszanych DIV-ów z powrotem do kontenera
+    shuffledDivs.forEach(div => container.appendChild(div));
 });
