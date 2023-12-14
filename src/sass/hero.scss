@@ -1,18 +1,70 @@
 @use './utilities/colors';
+@use './utilities/mixins';
 
-.hero-container{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height:80vh !important;
+.hero-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh !important;
 }
 
-.overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black;
-    opacity: .4;
+.overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.4;
 }
+
+.handing {
+	font-family: 'Allison', cursive !important;
+	color: white !important;
+	font-size: 60px !important;
+	text-align: center;
+	@include mixins.medium-devices {
+		font-size: 120px !important;
+	}
+}
+
+.booking {
+	&__container {
+		position: absolute;
+		bottom: 30px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 70%;
+		@include mixins.small-devices {
+			width: 70%;
+		}
+		@include mixins.medium-devices {
+			bottom: 60px;
+		}
+		@include mixins.large-devices {
+			width: auto;
+			bottom: 100px;
+		}
+	}
+	&__box {
+		display: flex;
+		justify-content: center;
+		// flex-direction: column;
+		// gap:1em;
+		align-items: center;
+		flex-wrap: wrap;
+		background-color: white;
+		padding: 5px;
+        @include mixins.medium-devices {
+padding:.6em 0;
+gap:1em}
+@include mixins.large-devices {
+    padding:.6em 1em;
+}
+	}
+}
+
+// .handing--2{
+//     color:colors.$main-400 !important;
+
+// }
