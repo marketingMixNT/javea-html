@@ -14,9 +14,11 @@ const reload = browserSync.reload;
 
 const paths = {
     html: './html/**/*.kit',
+    // html: './html/*.kit',
     sass: './src/sass/**/*.scss',
     js: './src/js/**/*.js',
-    img: './src/img/*',
+    img: './src/img/**/*',
+    // img: './src/img/*',
     dist: './dist',
     sassDest: './dist/css',
     jsDest: './dist/js',
@@ -53,8 +55,14 @@ function convertImages(done) {
     done()
 }
 
+// function handleKits(done) {
+//     src(paths.html)
+//         .pipe(kit())
+//         .pipe(dest('./'));
+//     done()
+// }
 function handleKits(done) {
-    src(paths.html)
+    src('./html/*.kit') // zmieniono tutaj ścieżkę
         .pipe(kit())
         .pipe(dest('./'));
     done()

@@ -17,7 +17,7 @@
         padding: 2em;
         max-width: 900px;
 
-        @include mixins.small-devices {
+        @include mixins.medium-devices {
             flex-direction: row;
             gap: 1em;
             justify-content: space-between;
@@ -39,20 +39,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1em;
+        gap: 2em;
         width: 100%;
         margin-top: 1em;
-        @include mixins.xs-devices {
+        @include mixins.small-devices {
             flex-direction: row;
             gap: 1em;
         }
         @include mixins.small-devices {
             align-items: flex-start;
-            width: 50%;
+            width: 100%;
         }
         @include mixins.large-devices {
-            // width: 40%;
+            width: 60%;
         }
+        
         & &-box {
             display: flex;
             flex-direction: column;
