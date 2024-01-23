@@ -1,5 +1,5 @@
 @use './utilities/colors';
-
+@use './utilities/mixins';
 
 .hotale-top-bar-background{
     background-color:  colors.$main-400
@@ -7,4 +7,16 @@
 
 .hotale-top-bar.hotale-middle-logo .hotale-logo{
     margin-top: -5px;
+}
+
+
+.top-bar{display:none;
+   
+}
+
+
+.top-bar{
+    @media (min-width:1000px){
+        display: block;
+    }
 }
