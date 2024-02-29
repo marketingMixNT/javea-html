@@ -33,47 +33,18 @@
 
 }
 
-.booking {
-	&__container {
-		position: absolute;
-		bottom: 30px;
-		left: 50%;
-		transform: translateX(-50%);
-		width: 70%;
-		@include mixins.small-devices {
-		}
-		@include mixins.medium-devices {
-			bottom: 60px;
-		}
-		@include mixins.large-devices {
-			bottom: 100px;
-		}
-		@include mixins.xxl-devices {
-			width: auto;
-		}
-	}
-	&__box {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-		background-color: white;
-		padding: 5px;
-		@include mixins.medium-devices {
-			padding: 0.6em 0;
-			gap: 1em;
-		}
-		@include mixins.large-devices {
-			padding: 0.6em 1em;
-		}
-		&--container{
-			flex-direction: column;
-			gap:5px;
-			@include mixins.medium-devices {
-				flex-direction: row;
-			}
-		}
-	}
+.profit-room{
+	position: absolute;
+	right:0;
+	bottom:0;
+	left: 0;
+	
+}
+
+.wis2-panel.wis2-panel--horizontal.fixed{
+	position: absolute !important;
+	background-color:white !important;
+	padding: 20px 0
 }
 
 .slogan{

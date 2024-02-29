@@ -108,3 +108,17 @@ body.hotale-full .hotale-fixed-footer {
       margin-bottom: 75px;
     }
   }
+
+
+  .hotale-header-style-plain.hotale-style-top-bar-logo .hotale-navigation{
+	text-align:left !important
+  }
+
+  @media (min-width:1150px){
+	.hotale-header-style-plain.hotale-style-top-bar-logo .hotale-navigation{
+		text-align:center !important
+	  }
+  }
+
+
+  
