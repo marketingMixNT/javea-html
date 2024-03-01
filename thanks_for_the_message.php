@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Contact | JaveaDream: Your Gateway to a Dream Vacation in Javea, Spain</title>
+    <title>JaveaDream: Your Gateway to a Dream Vacation in Javea, Spain</title>
     <meta name="description"
         content="Discover sun-drenched charm in Javea with JaveaDream.es. Explore exquisite holiday rentals in this picturesque Spanish town, ideal for families, couples, and solo travelers seeking comfort and style.">
 
@@ -100,7 +100,6 @@
     data-home-url="index.html">
 
 
-    
     <div class="hotale-mobile-header-wrap">
     <div class="hotale-mobile-header hotale-header-background hotale-style-slide hotale-sticky-mobile-navigation nav__mobile"
         id="hotale-mobile-header">
@@ -147,7 +146,7 @@
     <a href="apartments.html" class="sf-with-ul-pre sf-with-ul">Apartments</a>
     <ul class="sub-menu">
         <li class="menu-item" data-size="60">
-            <a href="/arena_dream_a3a.html">Arena Dream
+            <a href="/arena_dream_d2b.html">Arena Dream
                 A3A</a>
         </li>
         <li class="menu-item" data-size="60">
@@ -189,11 +188,11 @@
         </div>
     </div>
 </div>
-    
+
     <div class="hotale-body-outer-wrapper">
         <div class="hotale-body-wrapper clearfix hotale-with-frame ">
 
- 
+            
 <header style="background-color:#293656" class="top-bar">
     <div style="display: flex;justify-content:space-between;align-items:center;; max-width:1280px;margin:auto;">
 
@@ -238,7 +237,7 @@
 
     </div>
     </div>
-</header>            
+</header>
             <header
                 class="hotale-header-wrap hotale-header-style-plain hotale-style-top-bar-logo hotale-sticky-navigation hotale-style-slide"
                 data-navigation-offset="75">
@@ -246,7 +245,7 @@
                 <div class="hotale-header-container hotale-header-full">
                     <div class="hotale-header-container-inner clearfix">
 
-<div
+                        <div
                             class="hotale-navigation hotale-item-pdlr clearfix hotale-navigation-submenu-indicator desktop-nav-container">
 
                             <div class="hotale-main-menu" id="hotale-main-menu">
@@ -276,7 +275,7 @@
     <a href="apartments.html" class="sf-with-ul-pre sf-with-ul">Apartments</a>
     <ul class="sub-menu">
         <li class="menu-item" data-size="60">
-            <a href="/arena_dream_a3a.html">Arena Dream
+            <a href="/arena_dream_d2b.html">Arena Dream
                 A3A</a>
         </li>
         <li class="menu-item" data-size="60">
@@ -330,217 +329,33 @@
                                 </div>
                             </div>
 
-                        </div>                        
+                        </div>
                     </div>
                 </div>
             </header>
 
-            <div class="hotale-page-title-wrap hotale-style-custom hotale-center-align banner" style="background-image: url('assets/images/hotel_1.webp')">
-    <div class="hotale-header-transparent-substitute"></div>
-    <div class="hotale-page-title-overlay"></div>
-    <div class="overlay"></div>
-    <div class="hotale-page-title-container hotale-container">
-        <div class="hotale-page-title-content hotale-item-pdlr"><h1 class="hotale-page-title">Contact</h1></div>
-    </div>
-</div>
-<div class="gdlr-core-pbf-wrapper" style="padding: 30px 0px 20px 0px;" data-skin="White Text">
-    <div class="gdlr-core-pbf-background-wrap contact-section" >
-        <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="opacity: 0.5; background-size: cover; background-position: center;" data-parallax-speed="0.2"></div>
-    </div>
-    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
-        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+            <div class="hotale-page-wrapper" id="hotale-page-wrapper" style="    min-height: 58vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;">
+               <div class="gdlr-core-page-builder-body">
 
 
-            
-           <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-column-first" id="gdlr-core-column-1" >
-    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js" style="padding: 50px 20px 0px 20px;">
-        <div class="gdlr-core-pbf-background-wrap"></div>
-        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js" data-gdlr-animation="fadeInUp" data-gdlr-animation-duration="600ms" data-gdlr-animation-offset="0.8">
-            <div class="gdlr-core-pbf-element">
-                <div class="gdlr-core-icon-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 40px;display:flex;justify-content: center" >
-                    <div
-                        class="gdlr-core-icon-item-wrap gdlr-core-skin-e-background gdlr-core-icon-item-type-round"
-                        style="background-color: #ffffff; border-radius: 40px; -moz-border-radius: 40px; -webkit-border-radius: 40px; padding: 20px 20px 20px 20px;"
-                    >
-                        <i class="gdlr-core-icon-item-icon fa fa-phone gdlr-core-skin-e-content" style="color: #0a0a0a; font-size: 31px; min-width: 31px; min-height: 31px;"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="gdlr-core-pbf-element">
-                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 25px;">
-                    <div class="gdlr-core-title-item-title-wrap" style="text-align:center">
-                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test" style="font-size: 26px; letter-spacing: 0px; text-transform: none; color: #ffffff;"> Telefon
-                           <span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="gdlr-core-pbf-element">
-                <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 0px;">
-                    <div class="gdlr-core-text-box-item-content" style="text-transform: none; color: #ffffff;"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent ad cras,</p></div>
-                </div>
-            </div> -->
-            <div class="gdlr-core-pbf-element">
-                <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
-                    <div class="gdlr-core-text-box-item-content" style="font-weight: 700; text-transform: none;;text-align:center">
-                        <p><a style="text-decoration: underline; color:white;text-decoration:none" href="tel:+34682392503">+34 682 39 25 03</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-           <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-column-first" id="gdlr-core-column-1" >
-    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js" style="padding: 50px 20px 0px 20px;">
-        <div class="gdlr-core-pbf-background-wrap"></div>
-        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js" data-gdlr-animation="fadeInUp" data-gdlr-animation-duration="600ms" data-gdlr-animation-offset="0.8">
-            <div class="gdlr-core-pbf-element">
-                <div class="gdlr-core-icon-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 40px;display:flex;justify-content: center" >
-                    <div
-                        class="gdlr-core-icon-item-wrap gdlr-core-skin-e-background gdlr-core-icon-item-type-round"
-                        style="background-color: #ffffff; border-radius: 40px; -moz-border-radius: 40px; -webkit-border-radius: 40px; padding: 20px 20px 20px 20px;"
-                    >
-                        <i class="gdlr-core-icon-item-icon fa fa-envelope-o gdlr-core-skin-e-content" style="color: #000000; font-size: 31px; min-width: 31px; min-height: 31px;"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="gdlr-core-pbf-element">
-                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 25px;">
-                    <div class="gdlr-core-title-item-title-wrap" style="text-align:center">
-                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test" style="font-size: 26px; letter-spacing: 0px; text-transform: none; color: #ffffff;"> Email
-                           <span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="gdlr-core-pbf-element">
-                <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 0px;">
-                    <div class="gdlr-core-text-box-item-content" style="text-transform: none; color: #ffffff;"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent ad cras,</p></div>
-                </div>
-            </div> -->
-            <div class="gdlr-core-pbf-element">
-                <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
-                    <div class="gdlr-core-text-box-item-content" style="font-weight: 700; text-transform: none;;text-align:center">
-                        <p><a style="text-decoration: underline; color:white;text-decoration:none" href="mailto:contact@javeadream.es ">contact@javeadream.es </a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-           <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-column-first" id="gdlr-core-column-1" >
-    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js" style="padding: 50px 20px 0px 20px;">
-        <div class="gdlr-core-pbf-background-wrap"></div>
-        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js" data-gdlr-animation="fadeInUp" data-gdlr-animation-duration="600ms" data-gdlr-animation-offset="0.8">
-            <div class="gdlr-core-pbf-element">
-                <div class="gdlr-core-icon-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 40px;display:flex;justify-content: center" >
-                    <div
-                        class="gdlr-core-icon-item-wrap gdlr-core-skin-e-background gdlr-core-icon-item-type-round"
-                        style="background-color: #ffffff; border-radius: 40px; -moz-border-radius: 40px; -webkit-border-radius: 40px; padding: 20px 20px 20px 20px;"
-                    >
-                        <i class="gdlr-core-icon-item-icon fa fa-envelope-o gdlr-core-skin-e-content" style="color: #000000; font-size: 31px; min-width: 31px; min-height: 31px;"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="gdlr-core-pbf-element">
-                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 25px;">
-                    <div class="gdlr-core-title-item-title-wrap" style="text-align:center">
-                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test" style="font-size: 26px; letter-spacing: 0px; text-transform: none; color: #ffffff;"> Address
-                           <span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="gdlr-core-pbf-element">
-                <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 0px;">
-                    <div class="gdlr-core-text-box-item-content" style="text-transform: none; color: #ffffff;"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent ad cras,</p></div>
-                </div>
-            </div> -->
-            <div class="gdlr-core-pbf-element">
-                <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
-                    <div class="gdlr-core-text-box-item-content" style="font-weight: 700; text-transform: none;text-align:center">
-                        <p><a style="text-decoration: underline; color:white;text-decoration:none;" href="#">Platja de l'Arenal<br> Jávea/ Xàbia, Alicante, Spain 
-                        </a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-            
-        </div>
-    </div>
-</div>
-<div class="gdlr-core-pbf-wrapper" style="padding: 90px 0px 35px 0px;">
-    <div class="gdlr-core-pbf-background-wrap" style="background-color: #ffffff;"></div>
-    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
-        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-            <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first" data-skin="Contact Field" id="gdlr-core-column-4">
-                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
-                    <div class="gdlr-core-pbf-background-wrap"></div>
-                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js" style="max-width: 760px;">
-                        <div class="gdlr-core-pbf-element">
-                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" style="padding-bottom: 60px;">
-                                <div class="gdlr-core-title-item-title-wrap">
-                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test" style="font-size: 39px; font-weight: 600; letter-spacing: 0px; text-transform: none;">
-                                        Leave us your info<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                    </h3>
-                                </div>
-                                <span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 19px; font-style: normal; letter-spacing: 0px;">
-                                    and we will get back to you.
-                                </span>
-                            </div>
-                        </div>
-                        <div class="gdlr-core-pbf-element">
-                            <div class="gdlr-core-contact-form-7-item gdlr-core-item-pdlr gdlr-core-item-pdb">
-                                <div role="form" class="wpcf7" id="wpcf7-f1979-p1964-o1" lang="en-US" dir="ltr">
-                                    <div class="screen-reader-response">
-                                        <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                        <ul></ul>
-                                    </div>
-                                    <form method="post" action="contactform/contactengine">
-                                        
-                                        <input type="text" name="Name" id="Name"  placeholder="Name:" class="input"/>
-                                        
-                                        <input type="tel" name="phone" id="phone"  placeholder="Phone:" class="input"/>
-
-                                        <input type="email" name="Email" id="Email"  placeholder="Email:" class="input"/>
-
-                                        
-                                        <textarea name="Message" rows="20" cols="20" id="Message" placeholder="MEssage:" class="input"></textarea>
-
-                                        <input type="submit" name="submit" value="Send" class="submit-button btn--primary" />
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><div class="gdlr-core-pbf-wrapper" style="padding: 0px 0px 0px 0px;">
-    <div class="gdlr-core-pbf-background-wrap"></div>
-    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
-        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
-            <div class="gdlr-core-pbf-element">
-                <div class="gdlr-core-wp-google-map-plugin-item gdlr-core-item-pdlr gdlr-core-item-pdb" style="padding-bottom: 0px;">
-                    <div class="wpgmp_map_container wpgmp-map-1" rel="map1">
-                        
-
-                       
+                   <h1>Thanks for your message</h1><br />
 
 
-                        <iframe style="width:100%; height:500px; border:0; margin-bottom: -9px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.5785249491505!2d0.18684937724964207!3d38.77336997175081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129e0fdb54a8f113%3A0x2ccb215b72bf228f!2zUGxhamEgZGVsIEFyZW5hbCwgWMOhYmlhL0rDoXZlYQ!5e0!3m2!1spl!2spl!4v1709290536714!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                   <p><a href="../contact.html" >Come back</a></p>
 
-            
-        <footer class="footer">
+
+
+
+               </div>
+           </div>
+
+
+
+            <footer class="footer">
     <div class="footer__container">
         <div class="footer__logo-section">
             <div class="footer__logo">
@@ -583,8 +398,8 @@
             </div> -->
             <div class="footer__columns-box">
                 <h6>Contact:</h6>
-                <a href="tel:+34682392503" style="color:white"> +34 682 39 25 03</a>
-                <a href="mailto:info@javeadream.es" style="color:white">info@javeadream.es</a>
+                <a href="tel:+34682392503"> +34 682 39 25 03</a>
+                <a href="mailto:info@javeadream.es">info@javeadream.es</a>
             </div>
             <div class="footer__columns-box">
                 <h6>Address:</h6>
@@ -612,15 +427,14 @@
         <span> <span>Created by</span><a href="https://marketingmix.pl" target="_blank">MarketingMix</a></span>
     </div>
     </div>
-</footer>            
+</footer>
+
 
         </div>
     </div>
 
-
-
-<script src="dist/js/main.min.js"></script>
-<!--OWN -->
+    <script src="dist/js/main.min.js"></script>
+    <!--OWN -->
 
 
 <script type="text/javascript" src="js/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
