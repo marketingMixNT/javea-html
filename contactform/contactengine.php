@@ -2,8 +2,8 @@
 
 header('Content-Type: text/html; charset=utf-8');
 
-$EmailFrom = "marek.gacek@marketingmix.pl"; // Zmień na swój rzeczywisty adres e-mail
-$EmailTo = "marek.gacek@marketingmix.pl";
+$EmailFrom = "info@javeadream.es "; // Zmień na swój rzeczywisty adres e-mail
+$EmailTo = "info@javeadream.es ";
 $Subject = "New message from javeadream.es/";
 $Name = Trim(stripslashes($_POST['Name']));
 $Tel = Trim(stripslashes($_POST['Tel']));

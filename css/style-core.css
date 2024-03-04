@@ -5100,9 +5100,9 @@
  /**
   * 6.0 - Responsive
   */
- .hotale-mobile-header-wrap {
+ /* .hotale-mobile-header-wrap {
 	 display: none;
- }
+ } */
  
  .hotale-mobile-header {
 	 padding-top: 15px;
@@ -7319,10 +7319,11 @@
 	 background: rgba(3, 2, 1, 0);
 	 display: none;
 	 width: 100%;
-	 height: 100%;
+	 /* height: 100%; */
 	 position: fixed;
 	 top: 0;
 	 left: 0;
+	 bottom:74px;
 	 z-index: 100
  }
  
@@ -7482,6 +7483,13 @@
 	 margin-left: -8px;
 	 cursor: pointer;
  }
+
+ @media(min-width:1000px){
+	.mm-navbar .mmenu-custom-close{
+		display: none;
+
+	}
+ };
  
  .mm-navbar .mmenu-custom-close:after {
 	 content: "\4d";
