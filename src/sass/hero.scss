@@ -102,15 +102,15 @@
 }
 
 .bg-1 {
-	
-	background-image: url('../../assets/images/hero-slider/hero-silder--small-2.webp');
-	@include mixins.medium-devices {
-		background-image: url('../../assets/images/hero-slider/hero-silder--big-2.webp');
-	}
-}
-.bg-2 {
 	background-image: url('../../assets/images/hero-slider/hero-silder--small-1.webp');
 	@include mixins.medium-devices {
 		background-image: url('../../assets/images/hero-slider/hero-silder--big-1.webp');
+	}
+	
+}
+.bg-2 {
+	background-image: url('../../assets/images/hero-slider/hero-silder--small-2.webp');
+	@include mixins.medium-devices {
+		background-image: url('../../assets/images/hero-slider/hero-silder--big-2.webp');
 	}
 }
