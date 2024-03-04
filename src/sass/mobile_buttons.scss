@@ -17,21 +17,21 @@
 	&_item {
 		border: none;
 		border-right: 1px solid white;
-		// border-top: 1px solid white;
-		background-color: #2A3656;
+		border-top: 1px solid white;
+		background-color: colors.$main-400;
 
 		&:first-of-type {
-			background-color: #abac76;
+			background-color: colors.$secondary-400;
 
 			& span {
-				color: white;
+				color: black;
 			}
 			&:hover {
-				background-color: #bdbdbd;
+				background-color: #abac7690;
 			}
 		}
 		&:hover {
-			background-color: #535252;
+			background-color: #29365690;
 		}
 
 		&-link {

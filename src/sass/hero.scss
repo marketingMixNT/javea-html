@@ -1,55 +1,115 @@
 @use './utilities/colors';
 @use './utilities/mixins';
 
-.hero-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 80vh !important;
+// .hero-container {
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// 	height: 80vh !important;
+// }
+
+// .overlay {
+// 	position: absolute;
+// 	left: 0;
+// 	top: 0;
+// 	right: 0;
+// 	bottom: 0;
+// 	background-color: black;
+// 	opacity: 0.4;
+// }
+
+// .handing {
+// 	font-family: 'Allison', cursive !important;
+// 	color: white !important;
+// 	font-size: 60px !important;
+// 	text-align: center;
+// 	@include mixins.medium-devices {
+// 		font-size: 120px !important;
+// 	}
+// }
+
+.hand-font {
+	font-family: 'Allison', cursive !important;
 }
 
-.overlay {
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	background-color: black;
-	opacity: 0.4;
-}
+// .profit-room {
+// 	position: absolute;
+// 	right: 0;
+// 	bottom: 0;
+// 	left: 0;
+// }
 
-.handing {
+// .wis2-panel.wis2-panel--horizontal.fixed {
+// 	position: absolute !important;
+// 	background-color: white !important;
+// 	padding: 50px 0;
+// }
+
+.slogan {
 	font-family: 'Allison', cursive !important;
 	color: white !important;
-	font-size: 60px !important;
-	text-align: center;
-	@include mixins.medium-devices {
-		font-size: 120px !important;
+	font-size: 21px !important;
+}
+
+.booking-bar {
+	display: none;
+	background: white !important;
+	position: absolute !important;
+	bottom: 0 !important;
+	left: 50% !important;
+	transform: translateX(-50%) !important;
+	padding: 0 15px;
+	width: 100%;
+	@include mixins.xs-devices {
+		
+	}
+	@include mixins.small-devices {
+		width: 80%;
+		bottom: 20px !important;
+		display: block;
+		
+	}
+	@include mixins.large-devices {
+		width: 80%;
+		bottom: 100px !important;
+	}
+	@include mixins.xxl-devices {
+		width: auto;
 	}
 }
 
-.hand-font{
-	font-family: 'Allison', cursive !important;
-
+.booking-bar--mobile{
+	display: block;
+	@include mixins.small-devices {
+		
+		display: none;
+		
+	}
 }
 
-.profit-room{
-	position: absolute;
-	right:0;
-	bottom:0;
-	left: 0;
-	
+#hero {
+	width: 100%;
+	height: calc(100vh - 138px);
+	margin-top: 74px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: background-image 1s ease-in-out;
+	background-attachment: fixed;
+	@include mixins.small-devices {
+		height: calc(100vh - 148px);
+	}
 }
 
-.wis2-panel.wis2-panel--horizontal.fixed{
-	position: absolute !important;
-	background-color:white !important;
-	padding: 50px 0
+.bg-1 {
+	background-image: url('../../assets/images/hero-slider/hero-silder--small-1.webp');
+	@include mixins.medium-devices {
+		background-image: url('../../assets/images/hero-slider/hero-silder--big-1.webp');
+	}
 }
-
-.slogan{
-	font-family: 'Allison', cursive !important;
-	color:white !important;
-	font-size: 21px !important;
-
+.bg-2 {
+	background-image: url('../../assets/images/hero-slider/hero-silder--small-2.webp');
+	@include mixins.medium-devices {
+		background-image: url('../../assets/images/hero-slider/hero-silder--big-2.webp');
+	}
 }

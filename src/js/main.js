@@ -164,3 +164,25 @@ document.addEventListener("DOMContentLoaded", () => {
     // Dodanie wymieszanych DIV-ów z powrotem do kontenera
     shuffledDivs.forEach(div => container.appendChild(div));
 });
+
+
+
+
+const images = ["bg-1", "bg-2"];
+let index = 0;
+const hero = document.querySelector("#hero");
+
+
+
+const changeBackground = () => {
+    images.forEach(function (bgClass) {
+        hero.classList.remove(bgClass);
+    });
+
+    hero.classList.add(images[index]);
+    index = (index + 1) % images.length;
+};
+
+if(hero){
+    setInterval(changeBackground, 5000);
+}
