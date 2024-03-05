@@ -74,6 +74,9 @@
 		bottom: 100px !important;
 	}
 	@include mixins.xxl-devices {
+		width: 80%;
+	}
+	@include mixins.max-devices {
 		width: auto;
 	}
 }
@@ -89,7 +92,7 @@
 
 #hero {
 	width: 100%;
-	height: calc(100vh - 138px);
+	height: calc(100vh - 75px);
 	margin-top: 74px;
 	background-position: center;
 	background-size: cover;
@@ -97,7 +100,7 @@
 	transition: background-image 1s ease-in-out;
 	background-attachment: fixed;
 	@include mixins.small-devices {
-		height: calc(100vh - 148px);
+		height: calc(100vh - 75px);
 	}
 }
 

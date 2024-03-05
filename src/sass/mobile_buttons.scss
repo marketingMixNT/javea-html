@@ -3,13 +3,14 @@
 .bottom-nav {
 	&_container {
 		position: fixed;
-		bottom: 0;
+		bottom: -75px;
 		left: 0;
 		right: 0;
 		background-color: #1c1c1c;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		z-index: 100000000000;
+		transition: all .6s;
 		// @include mixins.large-devices {
 		// 	display: none;
 		// }
@@ -61,4 +62,9 @@
             }
 		}
 	}
+}
+
+
+.show{
+	bottom:0
 }

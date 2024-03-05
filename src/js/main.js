@@ -186,3 +186,14 @@ const changeBackground = () => {
 if(hero){
     setInterval(changeBackground, 5000);
 }
+
+
+
+window.addEventListener('scroll', function() {
+    var testElement = document.querySelector('#nav-bottom');
+    if (window.scrollY >= 400) {
+        testElement.classList.add('show');
+    } else {
+        testElement.classList.remove('show');
+    }
+});
