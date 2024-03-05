@@ -1,5 +1,7 @@
 @use './utilities/colors';
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Sacramento&display=swap');
+
 
 body {
 	.gdlr-core-divider-line.gdlr-core-skin-divider {
@@ -102,23 +104,19 @@ body.hotale-full .hotale-fixed-footer {
 }
 
 .box {
-    margin-top: 75px;
-  
-    &:last-child {
-      margin-bottom: 75px;
-    }
-  }
+	margin-top: 75px;
 
+	&:last-child {
+		margin-bottom: 75px;
+	}
+}
 
-  .hotale-header-style-plain.hotale-style-top-bar-logo .hotale-navigation{
-	text-align:left !important
-  }
+.hotale-header-style-plain.hotale-style-top-bar-logo .hotale-navigation {
+	text-align: left !important;
+}
 
-  @media (min-width:1150px){
-	.hotale-header-style-plain.hotale-style-top-bar-logo .hotale-navigation{
-		text-align:center !important
-	  }
-  }
-
-
-  
+@media (min-width: 1150px) {
+	.hotale-header-style-plain.hotale-style-top-bar-logo .hotale-navigation {
+		text-align: center !important;
+	}
+}

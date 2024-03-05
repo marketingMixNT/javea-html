@@ -16,6 +16,10 @@
     @mixin xxl-devices {
       @media (min-width: 1400px) { @content; }
     }
+    @mixin book-devices {
+      @media (min-width: 1600px) { @content; }
+    }
     @mixin max-devices {
       @media (min-width: 2000px) { @content; }
     }
+  

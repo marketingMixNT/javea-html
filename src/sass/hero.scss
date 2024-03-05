@@ -20,9 +20,11 @@
 
 .handing {
 	font-family: 'Allison', cursive !important;
+	// font-family: "Sacramento", cursive !important;
 	color: white !important;
 	font-size: 60px !important;
 	text-align: center;
+	font-weight: 200;
 	@include mixins.medium-devices {
 		font-size: 120px !important;
 	}
@@ -30,6 +32,8 @@
 
 .hand-font {
 	font-family: 'Allison', cursive !important;
+	font-family: "Euphoria Script", cursive !important;
+
 }
 
 // .profit-room {
@@ -48,7 +52,8 @@
 .slogan {
 	font-family: 'Allison', cursive !important;
 	color: white !important;
-	font-size: 21px !important;
+	font-size: 24px !important;
+	font-weight:100 !important
 }
 
 .booking-bar {
@@ -73,13 +78,20 @@
 		width: 80%;
 		bottom: 100px !important;
 	}
+	@include mixins.xl-devices {
+		width: 60%;
+	}
 	@include mixins.xxl-devices {
-		width: 80%;
+		width: 64%;
+	}
+	@include mixins.book-devices {
+		width: 52%;
 	}
 	@include mixins.max-devices {
 		width: auto;
 	}
 }
+
 
 .booking-bar--mobile{
 	display: block;
@@ -91,29 +103,29 @@
 }
 
 #hero {
-	width: 100%;
-	height: calc(100vh - 75px);
-	margin-top: 74px;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	transition: background-image 1s ease-in-out;
-	background-attachment: fixed;
-	@include mixins.small-devices {
-		height: calc(100vh - 75px);
-	}
+	width: 100% !important;
+	height: calc(100vh - 75px) !important;
+	margin-top: 74px !important;
+	background-position: center !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	transition: background-image 1s ease-in-out !important;
+	background-attachment: fixed !important;
+	overflow: hidden !important;
+	
+	
 }
 
 .bg-1 {
-	background-image: url('../../assets/images/hero-slider/hero-silder--small-1.webp');
+	background-image: url('../../assets/images/hero-slider/hero-silder--small-1.jpg');
 	@include mixins.medium-devices {
-		background-image: url('../../assets/images/hero-slider/hero-silder--big-1.webp');
+		background-image: url('../../assets/images/hero-slider/hero-silder--big-1.jpg');
 	}
 	
 }
 .bg-2 {
-	background-image: url('../../assets/images/hero-slider/hero-silder--small-2.webp');
+	background-image: url('../../assets/images/hero-slider/hero-silder--small-2.jpg');
 	@include mixins.medium-devices {
-		background-image: url('../../assets/images/hero-slider/hero-silder--big-2.webp');
+		background-image: url('../../assets/images/hero-slider/hero-silder--big-2.jpg');
 	}
 }
